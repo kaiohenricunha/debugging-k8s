@@ -39,7 +39,7 @@
   - Check the Resource Quota:
   kubectl get resourcequota zion-quota --namespace=zion --output=yaml
 
-  - clean up my namespace
+  - Clean up my namespace:
   kubectl delete namespace zion
 
 # 2nd scenario
