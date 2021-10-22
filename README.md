@@ -13,7 +13,8 @@
 
 - kubectl create -f . --namespace=scenario3
 
-# 1st scenario (slides should be referecend on all scenarios) 
+# 1st scenario 
+## slides should be referecend on all scenarios 
     
   - Create a namespace called zion: 
   kubectl create namespace zion
