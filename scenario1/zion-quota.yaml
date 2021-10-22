@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: zion-quota
+spec:
+  hard:
+    requests.cpu: "1" # guaranteed to get
+    requests.memory: 1Gi
+    limits.cpu: "1" # never above
+    limits.memory: 1Gi
